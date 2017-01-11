@@ -13,7 +13,9 @@
 		small: '(max-width: 736px)',
 		xsmall: '(max-width: 480px)'
 	});
-
+	
+	
+	
 	$(function() {
 
 		var	$window = $(window),
@@ -267,7 +269,7 @@
 
 					},
 					fadeSpeed: 400,
-					onPopupClose: function() { $body.removeClass('modal-active'); },
+					onPopupClose: function() { $body.removeClass('modal-active');},
 					onPopupOpen: function() { $body.addClass('modal-active'); },
 					overlayOpacity: 0,
 					popupCloserText: '',
@@ -279,6 +281,7 @@
 					usePopupCaption: true,
 					usePopupCloser: true,
 					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
 					usePopupForceClose: true,
 					usePopupLoader: true,
 					usePopupNav: true,
