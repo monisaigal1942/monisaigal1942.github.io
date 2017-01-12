@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
 /*
-	Multiverse by HTML5 UP VERSION 1
+	Multiverse by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -1418,11 +1418,12 @@
 		#header h1 {
 			color: #a0a0a1;
 			display: inline-block;
-			font-size: 1em;
+			font-size: 0.8em;
 			line-height: 1;
 			margin: 0;
 			vertical-align: middle;
 		}
+
 
 		#header h2 {
 			color: #a0a0a1;
@@ -1430,12 +1431,9 @@
 			font-size: 2em;
 			line-height: 1;
 			vertical-align: middle;
-			margin: 0 3em;
+			margin: 0 2em;
 			
 		}
-
-
-	
 
 			#header h1 a {
 				border: 0;
@@ -1490,7 +1488,7 @@
 							background-color: #242629;
 						}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 800px) {
 
 		body {
 			padding: 4em 0 0 0;
@@ -1515,7 +1513,12 @@
 			}
 
 			#header h1 {
-				font-size: 0.9em;
+				font-size: 0.5em;
+			}
+		
+			#header h2 {
+			color: transparent;
+			
 			}
 
 			#header nav > ul > li a {
@@ -1558,11 +1561,8 @@
 			/* 
 			The part I added
 			*/
-			padding:5px !important;
-   			border:5px  solid #FFFFFF;
-			border-bottom-color: #31c2ea;
-			border-left-color: #31c2ea;
-			
+			padding:3px !important;
+   			border:3px  solid #FFFFFF;
 			overflow: hidden;
 			position: relative;
 			
