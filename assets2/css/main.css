@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
 /*
-	Multiverse by HTML5 UP VERSION 1
+	Multiverse by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -176,6 +176,7 @@
 	}
 
 		@media screen and (max-width: 1680px) {
+
 
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -1055,6 +1056,7 @@
 					margin-left: 3em;
 				}
 
+
 				.panel > .closer {
 					background-size: 2.5em;
 					background-position: 75% 25%;
@@ -1190,6 +1192,7 @@
 			bottom: 0;
 			cursor: default;
 			left: 0;
+
 			position: absolute;
 			text-align: left;
 			width: 100%;
@@ -1343,6 +1346,7 @@
 			pointer-events: none;
 			-moz-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			-webkit-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
+
 			-ms-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			background-image: url("images/spinner.svg");
@@ -1424,18 +1428,19 @@
 			vertical-align: middle;
 		}
 
+
 		#header h2 {
 			color: #a0a0a1;
 			display: inline-block;
 			font-size: 2em;
 			line-height: 1;
 			vertical-align: middle;
-			margin: 0 3em;
+			margin: 0 2em;
 			
 		}
-
-
-	
+		li{
+			font-size: 1em;
+		}
 
 			#header h1 a {
 				border: 0;
@@ -1490,7 +1495,7 @@
 							background-color: #242629;
 						}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 800px) {
 
 		body {
 			padding: 4em 0 0 0;
@@ -1515,7 +1520,15 @@
 			}
 
 			#header h1 {
-				font-size: 0.9em;
+				font-size: 0.5em;
+			}
+			li{
+			font-size: 0.5em;
+			}
+		
+			#header h2 {
+			font-size: 0.5em;
+			
 			}
 
 			#header nav > ul > li a {
@@ -1558,11 +1571,6 @@
 			/* 
 			The part I added
 			*/
-			padding:5px !important;
-   			border:5px  solid #FFFFFF;
-			border-bottom-color: #31c2ea;
-			border-left-color: #31c2ea;
-			
 			overflow: hidden;
 			position: relative;
 			
