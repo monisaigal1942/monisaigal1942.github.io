@@ -1,4 +1,4 @@
-p@import url(font-awesome.min.css);
+@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
 /*
@@ -1264,23 +1264,7 @@ p@import url(font-awesome.min.css);
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			.poptrox-popup:before {
-				display: none;
-			}
-
-			.poptrox-popup .caption {
-				display: none !important;
-			}
-
-			.poptrox-popup .closer,
-			.poptrox-popup .nav-previous,
-			.poptrox-popup .nav-next {
-				display: none !important;
-			}
-
-		}
+		
 
 /* Wrapper */
 
